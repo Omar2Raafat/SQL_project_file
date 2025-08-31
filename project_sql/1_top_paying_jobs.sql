@@ -17,6 +17,9 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 
+
+
+-- Enhanced query to include skills for each job posting
 SELECT 
     jp.job_id,
     jp.job_title,
